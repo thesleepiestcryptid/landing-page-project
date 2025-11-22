@@ -37,3 +37,18 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.container .column-one {
+    background-color: #1f2937;
+    padding: 0px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
