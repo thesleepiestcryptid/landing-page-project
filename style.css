@@ -54,13 +54,10 @@ h1 {
     padding-bottom: 100px;
 }
 
-.box-one {
+.box-one, .box-two {
     flex: 1;  
 }
 
-.box-two {
-    flex: 1;
-}
 
 button {
     background-color: #3882F6;
@@ -68,6 +65,54 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
+}
 
+.p-style-one {
+
+    color:aquamarine;
+}
+
+.p-style-two {
+    color:rgb(39, 26, 216);
+}
+
+.column-two {
+   display:flex; 
+    justify-content: center;
+    gap: 52px;
+    flex-direction: column;
+    
+}
+
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    weight: 900;
+    text-align: center;
+    
+
+
+}
+
+.small-img {
+
+    width: 200px;
+    height: 200px;
+}
+
+.plant {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    margin: 0px 52px;
+}
+
+.plants {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
